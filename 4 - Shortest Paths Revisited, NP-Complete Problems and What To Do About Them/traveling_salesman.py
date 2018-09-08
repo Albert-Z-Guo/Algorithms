@@ -6,7 +6,7 @@ import numpy as np
 
 
 '''
-The file tsp.txt describes a symetric traveling salesman problem.
+The file traveling_salesman.txt describes a symetric traveling salesman problem.
 
 The first line indicates the number of cities.
 Each city is a point in the plane, and each subsequent line indicates
@@ -25,6 +25,7 @@ We compute the optimal paths separately to infer the global optimal path.
 '''
 
 
+# method to find the Euclidean distance between two locations
 def _dist(location_1, location_2):
     return np.sqrt(np.square(location_1[0] - location_2[0]) + np.square(location_1[1] - location_2[1]))
 
@@ -61,7 +62,7 @@ def read_file(file_name):
 tuple_dist_dict = {}
 
 
-# reference:
+# references:
 # https://github.com/CarlEkerot/held-karp/blob/master/held-karp.py
 # https://www.tutorialspoint.com/python/bitwise_operators_example.htm
 def find_min_dist(dist):
@@ -132,5 +133,5 @@ if __name__ == "__main__":
     # overlap_dist can be visualized by traveling_salesman_plot.py
     overlap_dist = 2*_dist([23883.3333, 14533.3333], [24166.6667, 13250.0000])
     min_dist = int(np.floor(min_dist_part_1 + min_dist_part_2 - overlap_dist))
-    print('minimum distance for traveling salesman:', min_dist)
+    print('minimum distance for the traveling salesman:', min_dist)
     print('total running time: {0:.2} minutes\n'.format((time.time() - start_time)/60))
