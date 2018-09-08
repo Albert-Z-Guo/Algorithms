@@ -65,6 +65,8 @@ tuple_dist_dict = {}
 # references:
 # https://github.com/CarlEkerot/held-karp/blob/master/held-karp.py
 # https://www.tutorialspoint.com/python/bitwise_operators_example.htm
+
+# method to find the minimum traveling distance
 def find_min_dist(dist):
     # number of cities
     N = dist.shape[0]

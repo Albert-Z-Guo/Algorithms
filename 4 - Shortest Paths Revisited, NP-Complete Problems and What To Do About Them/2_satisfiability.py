@@ -19,7 +19,9 @@ which indicates the clause -x_{16808} V x_{75250}.
 '''
 
 
-# references: https://www.geeksforgeeks.org/2-satisfiability-2-sat-problem/
+# reference:
+# https://www.geeksforgeeks.org/2-satisfiability-2-sat-problem/
+
 # method to generate Implication Graph from Conjunctive Normal Form
 # For example, Conjunctive Normal Form A V B can be expressed as
 # -A -> B and -B -> A in Implication Graph.
