@@ -55,7 +55,7 @@ def read_file(file_name):
     file.closed
 
     print('number of symbols:', num_symbols)
-    
+
     return heap
 
 
@@ -71,16 +71,15 @@ def generate_root(heap):
     return minheap.heappop(heap)
 
 
-index_code_map = {}
+index_code_dict = {}
 
 
 # method to encode symbols by traversing through the tree from the generated root
 def encode(symbol, current_code):
-    global index_code_map
 
     # if reaching the leaves, which do have indices
     if symbol.index != None:
-        index_code_map[symbol.index] = current_code
+        index_code_dict[symbol.index] = current_code
         return
 
     encode(symbol.left, current_code + '0')
@@ -94,7 +93,7 @@ if __name__ == "__main__":
     encode(root, '')
 
     code_lengths = []
-    for index, code in index_code_map.items():
+    for index, code in index_code_dict.items():
         code_lengths.append(len(code))
 
     print('maximum code length:', max(code_lengths))
