@@ -26,5 +26,4 @@ Module 4 contains:
 * 2 satisfiability identification algorithm
 
 **All works are original and written by Albert Z. Guo.**
-
-**DO NOT COPY for personal use in Coursera.**
+DO NOT COPY for personal use in Coursera.
