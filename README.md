@@ -1,4 +1,4 @@
-Stanford Algorithm Specialization Assignments
+# Stanford Algorithm Specialization Assignments
 
 Module 1 contains:
 * Karatsuba's large number multiplication algorithm
