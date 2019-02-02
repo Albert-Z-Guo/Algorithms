@@ -18,7 +18,7 @@ Module 2 contains:
 Module 3 contains:
 * Clustering algorithms
 * Huffman encoding
-* Knapsack problem optimal value calculation
+* Knapsack problem optimal value calculations
 * Maximum-weight independent set calculation
 * Job scheduling optimization algorithm
 
