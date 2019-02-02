@@ -2,7 +2,7 @@
 
 Module 1 contains:
 * Karatsuba's large number multiplication algorithm
-* Inversion calculation
+* Inversions calculation
 * Quicksort sorting algorithm
 * Karger's graph minimum cut algorithm
 
