@@ -1,16 +1,16 @@
 # Stanford Algorithm Specialization Assignments
 
 Module 1 contains:
-* Karatsuba's large number multiplication algorithm
+* Karatsuba's algorithm (for large number multiplication)
 * Inversions calculation
-* Quicksort sorting algorithm
-* Karger's graph minimum cut algorithm
+* Quicksort algorithm
+* Karger's algorithm (a randomized algorithm for computing the minimum cuts of a connected graph)
 
 Module 2 contains:
 * Dijkstra's algorithm (for finding shortest paths in a graph with positive only edge weights)
 * Running medians calculation
 * Two-sum calculation
-* Kosaraju's strongly connected components identification algorithm
+* Kosaraju's algorithm (for identifying strongly connected components in a graph) 
 
 Module 3 contains:
 * Clustering algorithms
@@ -25,6 +25,6 @@ Module 4 contains:
 * Traveling salesman problem without approximation (for finding the shortest route that visits each node in a graph)
 * 2 satisfiability identification algorithm
 
-All works are original and written by Albert Z. Guo. 
+**All works are original and written by Albert Z. Guo.**
 
-DO NOT COPY for personal use in Coursera.
+**DO NOT COPY for personal use in Coursera.**
