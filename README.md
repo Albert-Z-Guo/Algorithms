@@ -25,5 +25,5 @@ Module 4 contains:
 * Traveling salesman problem without approximation (for finding the shortest route that visits each node in a graph)
 * 2 satisfiability identification algorithm
 
-**All works are original and written by Albert Z. Guo.**
-DO NOT COPY for personal use in Coursera.
+**All works are original and written by Albert Z. Guo.** <br/>
+**DO NOT COPY for personal use in Coursera.**
