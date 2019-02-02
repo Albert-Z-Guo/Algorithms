@@ -1,5 +1,8 @@
 # Stanford Algorithm Specialization Assignments
 
+**All works are original and written by Albert Z. Guo.** <br/>
+**DO NOT COPY for personal use in Coursera.**
+
 Module 1 contains:
 * Karatsuba's algorithm (for large number multiplication)
 * Inversions calculation
@@ -24,6 +27,3 @@ Module 4 contains:
 * Traveling salesman problem heuristic approximation (for finding the shortest route that visits each node in a graph)
 * Traveling salesman problem without approximation (for finding the shortest route that visits each node in a graph)
 * 2 satisfiability identification algorithm
-
-**All works are original and written by Albert Z. Guo.** <br/>
-**DO NOT COPY for personal use in Coursera.**
