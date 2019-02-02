@@ -1,7 +1,7 @@
 # Stanford Algorithm Specialization Assignments
 
-**All works are original and written by Albert Z. Guo.** <br/>
-**DO NOT COPY for personal use in Coursera.**
+All works are original and written by Albert Z. Guo. <br/>
+**DO NOT COPY** for personal use in Coursera.
 
 Module 1 contains:
 * Karatsuba's algorithm (for large number multiplication)
