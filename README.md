@@ -16,9 +16,9 @@ Module 2 contains:
 * Kosaraju's algorithm (for identifying strongly connected components in a graph) 
 
 Module 3 contains:
-* Clustering algorithms
+* Clustering algorithms (with speed optimization on a large graph using Union-Find structure)
 * Huffman encoding
-* Knapsack problem optimal value calculations
+* Knapsack problem optimal value calculations (with speed optimization using memoization)
 * Maximum-weight independent set calculation
 * Job scheduling optimization algorithm
 
