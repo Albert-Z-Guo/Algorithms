@@ -4,7 +4,7 @@ All works are original and written by Albert Z. Guo. <br/>
 **DO NOT COPY** for personal use in Coursera.
 
 Module 1 contains:
-* Karatsuba's algorithm (for large number multiplication)
+* Karatsuba's algorithm (for fast large number multiplication e.g. 64 digits times 64 digits)
 * Inversions calculation
 * Quicksort algorithm
 * Karger's algorithm (a randomized algorithm for computing the minimum cuts of a connected graph)
