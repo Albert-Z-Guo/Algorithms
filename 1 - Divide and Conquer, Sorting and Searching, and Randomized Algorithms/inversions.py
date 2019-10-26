@@ -11,7 +11,6 @@ def read_file(file_name):
     # read in data as list
     with open(file_directory, 'r') as file:
         list = file.readlines()
-    file.closed
 
     # convert to integer for each element in list
     integer_array = [int(i) for i in list]

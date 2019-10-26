@@ -34,7 +34,6 @@ def read_file(file_name):
             value_dict[i] = value
             weight_dict[i] = weight
             i += 1
-    file.closed
 
     print('knapsack size:', knapsack_size)
     print('number of items:', items_num)

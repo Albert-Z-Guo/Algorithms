@@ -30,7 +30,6 @@ def read_file(file_name):
         # read the following lines
         for row in file:
             weight_list.append(int(row))
-    file.closed
 
     print('number of vertices:', num_vertices)
 

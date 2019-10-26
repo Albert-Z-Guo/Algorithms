@@ -46,7 +46,6 @@ def read_file(file_name):
         for row in file:
             index_location_dict[index] = [float(i) for i in row.split()]
             index += 1
-    file.closed
 
     distance_matrix = np.zeros((num_cities, num_cities))
     for i in np.arange(num_cities):

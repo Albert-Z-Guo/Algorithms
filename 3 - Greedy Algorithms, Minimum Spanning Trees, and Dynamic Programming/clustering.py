@@ -32,7 +32,6 @@ def read_file(file_name):
             row = np.array([int(i) for i in row.split()])
             num_edges += 1
             edge_list.append(row)
-    file.closed
 
     return edge_list, num_vertices, num_edges
 

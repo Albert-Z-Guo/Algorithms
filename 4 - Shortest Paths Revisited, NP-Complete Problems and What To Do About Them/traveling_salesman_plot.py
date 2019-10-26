@@ -20,7 +20,6 @@ with open(file_directory, 'r') as file:
         y_values.append(float(row[1]))
         labels.append(i)
         i += 1
-file.closed
 
 print('number of cities:', num_cities)
 

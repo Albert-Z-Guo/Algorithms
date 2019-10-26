@@ -50,7 +50,6 @@ def read_file(file_name):
             if vertex_string not in vertex_index_map:
                 vertex_index_map[vertex_string]= num_distinct_vertices
                 num_distinct_vertices += 1
-    file.closed
 
     print('number of vertices:', num_vertices)
     print('number of distinct vertices:', num_distinct_vertices)

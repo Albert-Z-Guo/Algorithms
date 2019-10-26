@@ -43,7 +43,6 @@ def read_file(file_name):
             graph_reversed[x].append(-y)
             nodes.append(x)
             nodes.append(y)
-    file.closed
 
     print('number of clauses:', num_clauses)
 

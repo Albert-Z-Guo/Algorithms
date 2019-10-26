@@ -43,7 +43,6 @@ def read_file(file_name):
                 # choose the path with smaller cost
                 if cost_ij < dist[i-1][j-1][0]:
                     dist[i-1][j-1][0] = cost_ij
-    file.closed
 
     print('number of vertices:', num_vertices)
     print('number of edges:', num_edges)

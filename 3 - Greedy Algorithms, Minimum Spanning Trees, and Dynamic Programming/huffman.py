@@ -52,7 +52,6 @@ def read_file(file_name):
             node = Symbol(int(row), index)
             minheap.heappush(heap, node)
             index += 1
-    file.closed
 
     print('number of symbols:', num_symbols)
 

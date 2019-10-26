@@ -50,7 +50,6 @@ def read_file(file_name):
                     adjacency_list[row[1]] = adjacency_list[row[1]] + [[row[0], row[2]]]
                 else:
                     adjacency_list[row[1]] = [[row[0], row[2]]]
-    file.closed
 
     print('number of vertices:', num_vertices)
     print('number of edges::', num_edges)

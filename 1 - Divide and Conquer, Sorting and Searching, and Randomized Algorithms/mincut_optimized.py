@@ -15,7 +15,6 @@ def read_file(file_name):
         for row in file:
             row = np.array([int(i) for i in row.split()])
             adjacency_list.append(row)
-    file.closed
 
     # sort each row in adjacency_list by vertex label
     adjacency_list.sort(key=lambda row: row[0])

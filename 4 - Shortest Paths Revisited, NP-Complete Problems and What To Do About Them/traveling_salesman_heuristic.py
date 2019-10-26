@@ -42,7 +42,6 @@ def read_file(file_name):
         for row in file:
             row = [float(i) for i in row.split()]
             index_location_dict[int(row[0])] = row[1:]
-    file.closed
 
     print('number of cities:', num_cities)
 

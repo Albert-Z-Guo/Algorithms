@@ -21,7 +21,6 @@ def read_file(file_name):
     with open(file_directory, 'r') as file:
         for row in file:
             list.append(np.array([int(i) for i in row.split()]))
-    file.closed
 
     return list
 
