@@ -85,7 +85,6 @@ def kosaraju():
     		v = int(line.split()[1])
     		graph_original[u].append(v)
     		graph_reversed[v].append(u)
-    input_file.closed
 
     depth_first_search_loop(graph_reversed)
 

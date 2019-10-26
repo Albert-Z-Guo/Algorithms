@@ -13,7 +13,6 @@ def read_file(file_name):
     with open(file_directory, 'r') as file:
         for row in file:
             list.append(int(row))
-    file.closed
 
     return np.array(list)
 

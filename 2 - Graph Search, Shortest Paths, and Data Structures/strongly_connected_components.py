@@ -173,7 +173,7 @@ def replace_node_names(adjacency_list_indexed, node_orders):
     for j in np.arange(N):
         new_adjacency_list_indexed[ node_orders[j]-1 ] = adjacency_list_indexed[j]
 
-    # # remove indices
+    # remove indices
     new_adjacency_list = _remove_indices(new_adjacency_list_indexed)
 
     # replace indices' adjacencies' names
