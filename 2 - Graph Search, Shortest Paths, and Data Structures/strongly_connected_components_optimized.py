@@ -1,8 +1,7 @@
+from collections import Counter, defaultdict
 import os
 import sys
-import threading # thread-based parallelism
-from collections import defaultdict
-from collections import Counter
+import threading 
 
 import numpy as np
 
@@ -15,18 +14,12 @@ and the vertex label in second column is the head
 '''
 
 
-# nodes' marks
-explored = {}
-# nodes' finishing times
-finishing_times ={}
-# nodes' leaders
-leaders = {}
-# number of nodes processed so far
-t = 0
-# current source node from which _depth_first_search is initiated
-source = None
-# number of distinct nodes
-N = 875714
+explored = {}       # nodes' marks
+finishing_times ={} # nodes' finishing times
+leaders = {}        # nodes' leaders
+source = None       # current source node from which _depth_first_search is initiated
+N = 875714          # number of distinct nodes
+t = 0               # number of nodes processed so far
 
 
 def depth_first_search_loop(graph):
