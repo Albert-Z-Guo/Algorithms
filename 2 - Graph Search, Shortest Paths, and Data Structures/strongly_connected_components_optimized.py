@@ -14,12 +14,12 @@ and the vertex label in second column is the head
 '''
 
 
-explored = {}       # nodes' marks
-finishing_times ={} # nodes' finishing times
-leaders = {}        # nodes' leaders
-source = None       # current source node from which _depth_first_search is initiated
-N = 875714          # number of distinct nodes
-t = 0               # number of nodes processed so far
+explored = {}        # nodes' marks
+finishing_times = {} # nodes' finishing times
+leaders = {}         # nodes' leaders
+source = None        # current source node from which _depth_first_search is initiated
+N = 875714           # number of distinct nodes
+t = 0                # number of nodes processed so far
 
 
 def depth_first_search_loop(graph):
@@ -33,8 +33,6 @@ def depth_first_search_loop(graph):
 
 
 def _depth_first_search(graph, i):
-    global explored
-    global leaders
     explored[i] = 1
     leaders[i] = source
 
@@ -45,7 +43,6 @@ def _depth_first_search(graph, i):
 
     global t
     t += 1
-    global finishing_times
     finishing_times[i] = t
 
 
@@ -85,8 +82,6 @@ def kosaraju():
     graph_new = replace_node_name(graph_original)
 
     # reset the following global parameters
-    global explored
-    global leaders
     global t
     global source
     explored.clear()
